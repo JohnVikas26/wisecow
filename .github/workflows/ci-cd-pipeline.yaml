@@ -27,7 +27,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: vikasbandili007/wisecow-app:latest  # Docker image name is "wisecow-app"
+        tags: vikasbandili007/wisecow-app  # Docker image name is "wisecow-app"
 
     - name: Testing on a k8s Kind Cluster
       uses: helm/kind-action@v1.4.0
