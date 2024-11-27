@@ -1,0 +1,16 @@
+Starting backup: 2024-11-27_10-59-00
+Warning: Permanently added '54.209.126.230' (ED25519) to the list of known hosts.
+ubuntu@54.209.126.230: Permission denied (publickey).
+rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+rsync error: unexplained error (code 255) at io.c(231) [sender=3.2.7]
+Backup failed: 2024-11-27_10-59-00
+Starting backup: 2024-11-27_11-26-42
+ubuntu@54.209.126.230: Permission denied (publickey).
+rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+rsync error: unexplained error (code 255) at io.c(231) [sender=3.2.7]
+Backup failed: 2024-11-27_11-26-42
+Starting backup: 2024-11-27_11-38-04
+ubuntu@54.209.126.230: Permission denied (publickey).
+rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+rsync error: unexplained error (code 255) at io.c(231) [sender=3.2.7]
+Backup failed: 2024-11-27_11-38-04

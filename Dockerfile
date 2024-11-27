@@ -1,7 +1,7 @@
-# Use an official lightweight base image
+# Use an base image
 FROM ubuntu:latest
 
-# Install necessary packages
+# Install packages
 RUN apt-get update && \
     apt-get install -y fortune-mod cowsay netcat-openbsd && \
     rm -rf /var/lib/apt/lists/*
@@ -9,10 +9,10 @@ ENV PATH="/usr/games:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 # Copy the script into the container
 COPY wiscow.sh /usr/local/bin/wiscow.sh
 
-# Make the script executable
+# Execute the script
 RUN chmod +x /usr/local/bin/wiscow.sh
 
-# Expose the port the server will run on
+# Expose port
 EXPOSE 4499
 
 # Run the script
